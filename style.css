@@ -194,6 +194,9 @@ p {
         text-align: left;
         position: relative;
     }
+    nav ul li a {
+        font-size: 18px;
+    }
     /* Style menu icona and position */
     #menuIcon{
         color: white;
@@ -260,7 +263,7 @@ p {
     nav {
        position: relative; 
        display: block;
-       width: 30%;
+       width: 40%;
        display: none;
        top: 110px;
     }
@@ -281,6 +284,9 @@ p {
         height: 50px;
         text-align: left;
         position: relative;
+    }
+    nav ul li a {
+        font-size: 16px;
     }
     /* Style menu icona and position */
     #menuIcon{

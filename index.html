@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <!-- Font awesome icon (links) -->
+    <link rel="stylesheet" href="fontAwesome_files/fontawesome.css" />
+    <script src="fontAwesome_files/fontawesome.js"></script>
+    <title>Swinging with the CyberSaints Fundraiser</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script>
+        // Toggle menu onclick
+        const toggle = ()=>{
+            document.getElementById("nav").classList.toggle("navactive")
+        }
+    </script>
+<div id="header">
+    <div class="container">
+        <div class="logo-wrapper">
+            <img src="images/ollu_cybersaints_logo.png" class="logo">
+        </div>
+        <span class="fas fa-bars" id="menuIcon" onclick="toggle()"></span>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Sponsorships</a></li>
+                <li><a href="#">Our Sponsors</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a> -->
+</div>
+
+<div class="header-text">
+    <p>First Annual</p>
+    <h1>Swinging with the CyberSaints Fundraiser</h1>
+</div>
+
+
+</body>
+</html>

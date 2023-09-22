@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
     box-sizing: border-box;
 }
 body{
@@ -14,6 +14,9 @@ body{
     background-color: #0056B8;
     background-size: cover;
     background-position: center;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: white;
 }
 .container{
     padding: 10px 2%;
@@ -90,13 +93,17 @@ nav ul li a:hover::after{
        display: block;
        width: 30%;
        display: none;
-       top: 80px;
+       top: 110px;
     }
     nav ul {
         position: absolute;
         width: 100%;
         height: 100vh;
         background-color: #0056B8;
+        border-left: solid;
+        border-width: 5px;
+        border-color: white;
+
     }
     nav ul li {
         display: block;
@@ -110,7 +117,7 @@ nav ul li a:hover::after{
     #menuIcon{
         color: white;
         display: inline;
-        position: fixed;
+        position:absolute;
         float: right;
         margin-left: 90%;
         margin-top: 3%;
@@ -126,27 +133,75 @@ nav ul li a:hover::after{
         display: inline;
     }
 }
-/* Style the hamburger menu
-.header a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  } */
 
-
-
-/* Header style */
-.header-text{
-    margin-top: 2%;
-    font-size: 30px;
-    color: 	black;
-    font-weight: bold;
+/* Body styling */
+/* background image styling */
+header{
+    z-index: -1;
+    background: url("images/ollu-campus.JPG");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: left center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* flex-direction: column; */
 }
+/* Header styling */
 .header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
-    color: #0056B8;
-    -webkit-text-stroke: 1px black;
+    font-size: 50px;
+    padding: 80px 15px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 1.5px black;
+}
+/* p styling */
+p {
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255,255,255,0.6);
+    padding: 10px 10px;
+    margin: 0px 10%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #0056B8;
+}
+.golfer{
+    height: 300px;
+    width: auto;
+}
+/* style button */
+.button{
+    padding: 10px 15px;
+    background: #0056B8;
+    border-radius: 10px;
+    border-style: none;
+    overflow: hidden;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px 0;
+}
+/* Style button on hover */
+.button:hover{
+    background: #003d82;
+}
+.button:active{
+    background: #003d82;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0;
+}
+.button__text{
+    /* display: inline-block; */
+    color: white;
+    font-size: 16px;
+    letter-spacing: .03cm;
 }

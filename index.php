@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <script>
+    <?php include("./view/Header.php"); ?>
+    <!-- <script>
         // Toggle menu onclick
         const toggle = ()=>{
             document.getElementById("nav").classList.toggle("navactive")
@@ -37,7 +38,7 @@
             </ul>
         </nav>
     </div>
-</div>
+</div> -->
 
 <header>
     <div class="header-text">

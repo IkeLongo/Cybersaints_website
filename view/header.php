@@ -1,3 +1,7 @@
+<style>
+  <?php include "style.css" ?>
+</style>
+
 <!-- <header>    -->
 <script>
     // Toggle menu onclick

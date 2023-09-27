@@ -1,3 +1,7 @@
+<style>
+  <?php include "style.css" ?>
+</style>
+
 <footer>
     <div class="logo-wrapper-footer">
         <img src="images/ollu_cybersaints_logo.png" class="logo-footer">

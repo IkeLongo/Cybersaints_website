@@ -95,7 +95,7 @@
 
         <h3 id="t-rules">Tournament Rules</h3>
 
-        <!-- <div class="row"> -->
+        <div class="row">
             <div class="col" id="f-section4">
                 <div class="row">
                     <img src="images/golf-tee.jpg" alt="golf-tee" class="golf-tee">
@@ -111,7 +111,7 @@
                 </div>
             </div>
             <img src="images/golfer.PNG" alt="golfer" class="f-golfer">
-        <!-- </div> -->
+        </div>
 
         <a href="register.php" class="register2">
             <button type="button" class="button" id="register">

@@ -391,6 +391,15 @@ h3{
 }
 
 
+/* ------------------SPONSORSHIPS----------------------- */
+
+#outer{
+    padding: 40px 20%;
+}
+#outer h1{
+    text-align: center;
+}
+
 /* Add media queries for responsiveness - when the screen is between 768-950 px*/
 @media (min-width: 769px) and (max-width: 1050px) {
     /* Add margin left of logo */

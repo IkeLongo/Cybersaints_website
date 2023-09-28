@@ -16,6 +16,17 @@
 <body>
 
     <?php include("./view/header.php"); ?>
+
+    <div class="col" id="outer">
+
+        <h1>Sponsorship Opportunities</h1>
+        <p>Test</p>
+
+        <div class="col">
+            <p>Test</p>
+        </div>
+
+    </div>
     
     <?php include("./view/footer.php"); ?>
 

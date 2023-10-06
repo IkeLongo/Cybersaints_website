@@ -821,7 +821,7 @@ h3{
     }
     /* Style menu icona and position */
     #menuIcon{
-        color: white;
+        color: black;
         display: inline;
         position:absolute;
         float: right;
@@ -832,6 +832,7 @@ h3{
         border-radius: 4px;
         cursor: pointer;   
         border: 2px solid white;
+        background-color: white;
     }
     /* This style toggles the menu appearance */
     nav.navactive{

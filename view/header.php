@@ -20,7 +20,8 @@
                 <li><a href="index.php">Home</a></li>
                 <li><a href="fundraiser.php">Fundraiser</a></li>
                 <li><a href="registration.php">Registration</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="contact.php">Contact
+                </a></li>
             </ul>
         </nav>
     </div>

@@ -19,8 +19,7 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="fundraiser.php">Fundraiser</a></li>
-                <li><a href="register.php">Register</a></li>
-                <li><a href="sponsorships.php">Sponsorships</a></li>
+                <li><a href="registration.php">Registration</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
         </nav>

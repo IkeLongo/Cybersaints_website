@@ -246,7 +246,7 @@ hr.line{
     padding-top: 0px;
     /* text-transform:uppercase; */
 }
-#register{
+#register, #payment{
     justify-content: center;
     text-align: center;
     padding: 15px 20px;
@@ -257,7 +257,7 @@ hr.line{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
-#register:hover, #register:focus, #register:active{
+#register:hover, #register:focus, #register:active, #payment:hover, #payment:focus, #payment:active{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -391,13 +391,73 @@ h3{
 }
 
 
-/* ------------------SPONSORSHIPS----------------------- */
+/* ------------------REGISTRATION----------------------- */
+
+.registration{
+    background-color: rgba(0,86,184,0.2);
+}
 
 #outer{
-    padding: 40px 20%;
+    padding: 0 40px;
+    margin: 40px 17%;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgba(0,86,184,0.2);
+    text-align: center;
 }
 #outer h1{
     text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color:black;
+}
+#outer p{
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+}
+#inner{
+    padding: 0 20px;
+    margin: 20px 0;
+    margin-bottom: 40px !important;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgba(0,86,184,0.2);
+}
+#inner h3{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+#inner p{
+    padding-bottom: 10px;
+}
+#inner ul{
+    padding: 0 0px;
+    padding-bottom: 20px !important;
+    font-size: 18px;
+    list-style-position: inside;
+    padding-left: 0;
+}
+#inner li{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+#payment{
+    text-transform: uppercase;
+    margin-top: 0px !important;
+    margin-bottom: 30px !important;
+    background-color: rgba(0,86,184,0.2);
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+}
+#payment_text{
+    color: black;
 }
 
 /* Add media queries for responsiveness - when the screen is between 768-950 px*/
@@ -454,7 +514,7 @@ h3{
         padding: 1%;
         border-radius: 4px;
         cursor: pointer;   
-        border: 2px solid white;
+        border: 2px solid black;
     }
     /* This style toggles the menu appearance */
     nav.navactive{
@@ -744,8 +804,8 @@ h3{
         height: 100vh;
         background-color: #0056B8;
         border-left: solid;
-        border-width: 5px;
-        border-color: white;
+        border-width: 3px;
+        border-color: black;
 
     }
     nav ul li {
@@ -822,7 +882,7 @@ h3{
         background-color: #0056B8;
         border-top: solid;
         border-width: 3px;
-        border-color: white;
+        border-color: black;
     }
     .logo-footer{
         height: 60px;
@@ -1035,5 +1095,78 @@ h3{
     }
     .register2{
         align-self: center;
+    }
+    /* ------------------REGISTRATION----------------------- */
+
+    .registration{
+        background-color: rgba(0,86,184,0.2);
+    }
+
+    #outer{
+        padding: 0 40px;
+        margin: 40px;
+        border: solid;
+        border-radius: 10px;
+        border-color: black;
+        background-color: rgba(0,86,184,0.2);
+        text-align: center;
+    }
+    #outer h1{
+        text-align: center;
+        padding: 10px 0;
+        text-transform: uppercase;
+        color:black;
+        font-size: 28px;
+    }
+    #outer p{
+        font-family: "Raleway", sans-serif;
+        color: black;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    #inner{
+        padding: 0 20px;
+        margin: 20px 0;
+        margin-bottom: 40px !important;
+        border: solid;
+        border-radius: 10px;
+        border-color: black;
+        background-color: rgba(0,86,184,0.2);
+    }
+    #inner h3{
+        font-size: 26px;
+        color: black;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #inner p{
+        padding-bottom: 10px;
+    }
+    #inner ul{
+        padding: 0 0px;
+        padding-bottom: 20px !important;
+        font-size: 18px;
+        list-style-position: outside;
+        display: inline-block;
+        padding: 0px 0;
+        padding-left: 15px !important;
+        text-align: left;
+    }
+    #inner li{
+        padding-top: 5px;
+        margin-left: 0px;
+        padding: 5px;
+    }
+    #payment{
+        text-transform: uppercase;
+        margin-top: 0px !important;
+        margin-bottom: 30px !important;
+        background-color: rgba(0,86,184,0.2);
+        border: solid;
+        border-color: black;
+        border-width: 3px;
+    }
+    #payment_text{
+        color: black;
     }
 }

@@ -394,21 +394,29 @@ h3{
 /* ------------------REGISTRATION----------------------- */
 
 .registration{
-    background-color: rgba(0,86,184,0.2);
+    background-image: url(https://ncg-live-assets.ams3.cdn.digitaloceanspaces.com/uploads/2018/06/Topgolf-Orlando-01-HIghRes281229copy.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    text-align: center;
+    /* padding: 40px 0; */
 }
-
+.reg-wrapper{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5));
+    padding: 40px 0;
+}
 #outer{
     padding: 0 40px;
-    margin: 40px 17%;
+    margin: 0 17%;
     border: solid;
     border-radius: 10px;
     border-color: black;
-    background-color: rgba(0,86,184,0.2);
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
 }
 #outer h1{
     text-align: center;
-    padding: 10px 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
     text-transform: uppercase;
     color:black;
 }
@@ -425,7 +433,7 @@ h3{
     border: solid;
     border-radius: 10px;
     border-color: black;
-    background-color: rgba(0,86,184,0.2);
+    background-color: rgba(255, 255, 255, 0.4);
 }
 #inner h3{
     font-size: 30px;
@@ -451,7 +459,7 @@ h3{
     text-transform: uppercase;
     margin-top: 0px !important;
     margin-bottom: 30px !important;
-    background-color: rgba(0,86,184,0.2);
+    background-color: rgba(255, 255, 255, 0.4);
     border: solid;
     border-color: black;
     border-width: 3px;

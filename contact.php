@@ -9,15 +9,55 @@
     <script src="fontAwesome_files/fontawesome.js"></script>
     <!-- Google fonts (link) -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
     <title>Swinging with the CyberSaints Fundraiser</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 </head>
-<body>
+<body id="contact">
 
     <?php include("./view/header.php"); ?>
 
-    
+    <div class="col" id="body">
+
+    <div class="wrapper" id="contact-wrapper">
+
+        <div class="col">
+            <h1 id="questions">Questions?</h1>
+            <h2 id="contacth2">Please Contact</h2>
+        </div>
+        <div class="col" id="contact-row">
+            <div class="col" id="profile-col">
+                <hr class="contact-line">
+                <h3>Fundraiser Organizer</h3>
+                <img src="images\white-square.png" alt="Isaac photo" class="headshot">
+                <h4>Isaac Longoria</h4>
+                <p>Phone Number: 210-730-6232</p>
+                <p>Email: ialongoria21sp@ollusa.edu</p>
+                <hr class="contact-line-bottom">
+            </div>
+            <div class="col" id="profile-col">
+                <h3>CyberSaints Vice President</h3>
+                <img src="images\white-square.png" alt="Cesar photo" class="headshot">
+                <h4>Cesar Sanchez</h4>
+                <p>Phone Number: 970-232-0065</p>
+                <p>Email: cgsanchez22sp@ollusa.edu</p>
+                <hr class="contact-line-bottom">
+            </div>
+            <div class="col" id="profile-col">
+                <h3>CyberSaints Secretary</h3>
+                <img src="images\white-square.png" alt="Fransico photo" class="headshot">
+                <h4>Fransico Frade</h4>
+                <p>Phone Number: 817-863-6792</p>
+                <p>Email: fjfrade20sp@ollusa.edu</p>
+                <hr class="contact-line-bottom">
+            </div>
+        </div>
+    </div>
+
+    </div>
     
     <?php include("./view/footer.php"); ?>
 

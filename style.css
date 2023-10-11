@@ -460,6 +460,102 @@ h3{
     color: black;
 }
 
+
+/* ------------------CONTACT----------------------- */
+
+
+#contact{
+    background-image: url(https://wallpapercave.com/wp/wp2691568.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    text-align: center;
+}
+#body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+#c1{
+    text-align: center;
+    justify-content: center;
+}
+#contact-wrapper{
+    background-color: rgb(255,255,255,0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    width: 50%;
+    margin: 50px auto;
+}
+#questions{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+}
+#contacth2{
+    font-size: 30px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#contact-row{
+    justify-content: space-around;
+
+}
+.contact-line{
+    height: 5px;
+    border-style: solid;
+    background-color: black;
+    border-radius: 10px;
+    width: 75%;
+    margin: auto;
+}
+#profile-col h3{
+    font-weight: 900;
+    color: black;
+    font-size: 28px;
+    padding-top: 5px;
+}
+#profile-col h4{
+    font-size: 28px;
+    font-weight: 900;
+    color: #003d82;
+}
+#profile-col p{
+    color: black;
+}
+.contact-line-bottom{
+    height: 5px;
+    border-style: solid;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px !important;
+    width: 75%;
+    margin: auto;
+}
+#contact-row img {
+    display: inline-block;
+
+    margin: 20px;
+    width: 125px;
+    height: 125px;
+
+    /* these values get added to your 100px by default */
+    border: 5px solid #003d82;
+    padding: 20px;
+}
+.headshot{
+    /* width: 300px;
+    height: auto; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+    /* margin-top: 10px; */
+    padding: 0px;
+    border-radius: 70px;
+    
+    /* now width and height determine how big your
+        element is as a whole */
+    box-sizing: border-box;
+}
+
 /* Add media queries for responsiveness - when the screen is between 768-950 px*/
 @media (min-width: 769px) and (max-width: 1050px) {
     /* Add margin left of logo */

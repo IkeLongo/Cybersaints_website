@@ -32,7 +32,7 @@
             <div class="col" id="profile-col">
                 <hr class="contact-line">
                 <h3>Fundraiser Organizer</h3>
-                <img src="images\white-square.png" alt="Isaac photo" class="headshot">
+                <img src="images\isaac-headshot.jpg" alt="Isaac photo" class="headshot">
                 <h4>Isaac Longoria</h4>
                 <p>Phone Number: 210-730-6232</p>
                 <p>Email: ialongoria21sp@ollusa.edu</p>
@@ -40,7 +40,7 @@
             </div>
             <div class="col" id="profile-col">
                 <h3>CyberSaints Vice President</h3>
-                <img src="images\white-square.png" alt="Cesar photo" class="headshot">
+                <img src="images\cesar-headshot.jpg" alt="Cesar photo" class="headshot">
                 <h4>Cesar Sanchez</h4>
                 <p>Phone Number: 970-232-0065</p>
                 <p>Email: cgsanchez22sp@ollusa.edu</p>
@@ -48,7 +48,7 @@
             </div>
             <div class="col" id="profile-col">
                 <h3>CyberSaints Secretary</h3>
-                <img src="images\white-square.png" alt="Fransico photo" class="headshot">
+                <img src="images\fransico-headshot.jpg" alt="Fransico photo" class="headshot">
                 <h4>Fransico Frade</h4>
                 <p>Phone Number: 817-863-6792</p>
                 <p>Email: fjfrade20sp@ollusa.edu</p>

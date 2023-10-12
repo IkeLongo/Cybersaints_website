@@ -475,10 +475,11 @@ h3{
 
 
 #contact{
-    background-image: url(https://wallpapercave.com/wp/wp2691568.jpg);
+    background-image: url(https://wallpapercave.com/wp/wp3833733.jpg);
     -webkit-background-size:cover;
     background-size: cover;
     text-align: center;
+    background-position: center center;
 }
 #body{
     min-height: 100vh;
@@ -552,7 +553,7 @@ h3{
 
     /* these values get added to your 100px by default */
     border: 5px solid #003d82;
-    padding: 20px;
+    padding: 0px;
 }
 .headshot{
     /* width: 300px;
@@ -564,7 +565,7 @@ h3{
     
     /* now width and height determine how big your
         element is as a whole */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 /* Add media queries for responsiveness - when the screen is between 768-950 px*/
@@ -1368,7 +1369,7 @@ h3{
 
         /* these values get added to your 100px by default */
         border: 5px solid #003d82;
-        padding: 20px;
+        padding: 0px;
     }
     .headshot{
         /* width: 300px;
